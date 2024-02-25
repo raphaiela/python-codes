@@ -8,7 +8,7 @@ def main():
         return True if n % 2 == 0 else False
     
     if is_even(x) is True:
-        print(f"{x} is even")
+        print("x is even")
     else:
          print(f"{x} is odd")
 

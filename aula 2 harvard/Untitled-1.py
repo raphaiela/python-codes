@@ -1,4 +1,4 @@
-x = int(input("ajsndiauhsdjasd "))
+x = int(input(" "))
 y = 2024
 
 z = y - x
