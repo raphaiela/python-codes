@@ -14,5 +14,4 @@ def get_int(prompt):
             print("x is not an integer")
     
 
-
 main()
