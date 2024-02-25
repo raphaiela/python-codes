@@ -12,5 +12,4 @@ def main():
     else:
          print("x is odd")
 
-main()  
-
+main() 
