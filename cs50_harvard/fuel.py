@@ -5,13 +5,16 @@ while True:
         x, y = map(int, f.split("/"))
 
         f = x/y * 100
+        f = round(f)
 
         if f <= 1:
             print("E")
             break
-        elif f >= 99:
+        elif f == 99 or f == 100:
             print("F")
             break
+        elif f > 100:
+            continue
         else:
             f = int(f)
             print(f"{f}%")
