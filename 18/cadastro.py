@@ -1,7 +1,7 @@
-from functions import telefone, cpf
+import functions
 
-inp = str(input("Olá, como vai? Poderia inserir os valores solicitados? \n---> "))
-if inp == "sim":
+inp = int(input("Olá, como vai? Poderia inserir os valores solicitados? \n[1] Sim\n[2] Não\n---> "))
+if inp == 1:
     telefone()
     cpf()
 else:
